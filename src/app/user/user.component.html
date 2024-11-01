@@ -1,0 +1,29 @@
+<!--TASK 3-->
+<div>-------TASK 3-------</div>
+<h1>Array from parent component</h1>
+<div *ngFor="let parentUser of parentUser">
+    {{parentUser.Id}}
+    {{parentUser.FirstName}}
+    {{parentUser.LastName}}
+    {{parentUser.PhoneNumber}}
+    {{parentUser.DateOfBirth}}
+    {{parentUser.Email}}
+</div>
+<!--TASK 4-->
+<div>-------TASK 4-------</div>
+<h1>Array from child component</h1>
+ <div *ngFor="let childUser of childUser">
+    {{childUser.Id}}
+    {{childUser.FirstName}}
+    {{childUser.LastName}}
+    {{childUser.PhoneNumber}}
+    {{childUser.DateOfBirth}}
+    {{childUser.Email}}
+</div>
+<!--TASK 6-->
+<div>---------------------</div>
+<div>-------TASK  6-------</div>
+<div>
+    <button (click)="displayUsers()" class="btn btn-primary" >Display Users in Console</button>
+</div>
+
